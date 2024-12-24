@@ -1,6 +1,6 @@
 import streamlit as st
 from transformers import pipeline, T5Tokenizer, T5ForConditionalGeneration, AutoModelForCausalLM, AutoTokenizer
-import fitz
+import fitz  # PyMuPDF
 import pdfplumber
 import pytesseract
 from pdf2image import convert_from_path
@@ -10,7 +10,7 @@ from concurrent.futures import ThreadPoolExecutor
 import os
 import tempfile
 import logging
-from langchain.chains.conversation.memory import ConversationBufferWindowMemory
+from langchain.memory.buffer import ConversationBufferWindowMemory
 from langchain_core.prompts import ChatPromptTemplate, HumanMessagePromptTemplate, MessagesPlaceholder
 from langchain_core.messages import SystemMessage
 from langchain.chains import LLMChain
