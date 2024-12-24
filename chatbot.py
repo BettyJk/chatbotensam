@@ -26,10 +26,11 @@ st.set_page_config(
     page_icon="🤖",
     layout="wide",
 )
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-ensam_logo = r"C:\Users\admin\new bot\ensam.png"
-chatbot_logo = r"C:\Users\admin\new bot\logoL7erf.png"
-
+# Define paths for resources
+ensam_logo = os.path.join(BASE_DIR, "resources", "ensam.png")
+chatbot_logo = os.path.join(BASE_DIR, "resources", "chatbot.png")
 col1, col2, col3 = st.columns([1, 2, 1])
 with col1:
     st.image(chatbot_logo, width=200)
