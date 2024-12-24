@@ -89,14 +89,14 @@ streamlit==1.41.1
 sympy==1.13.1
 tenacity==9.0.0
 threadpoolctl==3.5.0
-tokenizers==0.21.0
+tokenizers==0.15.2
 toml==0.10.2
 torch==2.5.1+cpu
 torchaudio==2.5.1+cpu
 torchvision==0.20.1+cpu
 tornado==6.4.2
 tqdm==4.67.1
-transformers @ git+https://github.com/huggingface/transformers@24c91f095fec4d90fa6901ef17146b4f4c21d0a3
+transformers==4.37.0
 typing_extensions==4.12.2
 tzdata==2024.2
 urllib3==2.3.0
