@@ -27,8 +27,8 @@ st.set_page_config(
     layout="wide",
 )
 
-ensam_logo = r"C:\Users\admin\l7erf-bot\ensam.png"
-chatbot_logo = r"C:\Users\admin\l7erf-bot\logoL7erf.png"
+ensam_logo = r"C:\Users\admin\new bot\ensam.png"
+chatbot_logo = r"C:\Users\admin\new bot\logoL7erf.png"
 
 col1, col2, col3 = st.columns([1, 2, 1])
 with col1:
